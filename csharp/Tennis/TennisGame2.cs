@@ -1,10 +1,11 @@
 using Tennis.Statemachine;
+using Tennis.Statemachine.States;
 
 namespace Tennis
 {
     public class TennisGame2 : ITennisGame
     {
-        private Statemachine.IState _currentState;
+        private IState _currentState;
 
         public TennisGame2()
         {

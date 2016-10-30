@@ -1,4 +1,4 @@
-namespace Tennis.Statemachine
+namespace Tennis.Statemachine.States
 {
     internal class Player1IsAhead : IState
     {
