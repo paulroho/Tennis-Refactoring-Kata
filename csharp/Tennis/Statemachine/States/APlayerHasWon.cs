@@ -1,10 +1,10 @@
 namespace Tennis.Statemachine.States
 {
-    internal abstract class APlayerHasWon : IState
+    internal class APlayerHasWon : IState
     {
         private readonly string _playerName;
 
-        protected APlayerHasWon(string playerName)
+        public APlayerHasWon(string playerName)
         {
             _playerName = playerName;
         }
