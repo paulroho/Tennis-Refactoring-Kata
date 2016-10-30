@@ -8,7 +8,7 @@ namespace Tennis.Statemachine.States
         private readonly string _playerBehindName;
         private readonly bool _player1IsAhead;
 
-        protected APlayerIsAhead(Score playerAheadScore, Score playerBehindScore, string playerAheadName, string playerBehindName, bool player1IsAhead)
+        public APlayerIsAhead(Score playerAheadScore, Score playerBehindScore, string playerAheadName, string playerBehindName, bool player1IsAhead)
         {
             _playerAheadScore = playerAheadScore;
             _playerBehindScore = playerBehindScore;

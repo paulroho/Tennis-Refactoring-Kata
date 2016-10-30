@@ -23,12 +23,12 @@ namespace Tennis.Statemachine.States
 
         public IState GetNextIfPlayer1Scores()
         {
-            return new Player1IsAhead(_score.GetNext(), _score);
+            return new APlayerIsAhead(_score.GetNext(), _score, "player1", "player2", player1IsAhead: true);
         }
 
         public IState GetNextIfPlayer2Scores()
         {
-            return new Player2IsAhead(_score, _score.GetNext());
+            return new APlayerIsAhead(_score.GetNext(), _score, "player2", "player1", player1IsAhead: false);
         }
     }
 }

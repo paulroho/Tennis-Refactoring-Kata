@@ -46,10 +46,6 @@
     <Compile Include="Statemachine\IState.cs" />
     <Compile Include="Statemachine\States\APlayerHasWon.cs" />
     <Compile Include="Statemachine\States\APlayerIsAhead.cs" />
-    <Compile Include="Statemachine\States\Player1IsAhead.cs" />
-    <Compile Include="Statemachine\States\Player1HasWon.cs" />
-    <Compile Include="Statemachine\States\Player2IsAhead.cs" />
-    <Compile Include="Statemachine\States\Player2HasWon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ITennisGame.cs" />
     <Compile Include="Statemachine\Score.cs" />
